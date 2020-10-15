@@ -1,0 +1,60 @@
+body {
+    background: #f7f7f7;
+    font-family: Arial;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.esquerda {
+    display: flex;
+}
+
+.cabecalho > .esquerda > div {
+    margin: 15px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.cabecalho-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.cabecalho-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;   
+}
+
+.cabecalho-link:hover {
+    border-bottom: 1px solid black; 
+}
+
+.cabecalho-link a:hover {
+    color: black;
+}
+
+.marca {
+    color:#8a8a8a;
+    padding: 15px;
+}
+
+.corpo {
+    background-image: url(https://picsum.photos/id/10/1280/720);
+    height: 100vh;
+    background-size: cover;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.corpo-texto {
+    margin: 20px;
+    margin-left: 25px;
+}
