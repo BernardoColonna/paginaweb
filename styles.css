@@ -47,16 +47,35 @@ body {
 
 .corpo {
     background-image: url(https://picsum.photos/id/10/1280/720);
-    height: 100vh;
+    height: 170vh;
     background-size: cover;
     margin-right: -20px;
     margin-left: -20px;
     margin-bottom: -20px;
+    padding: 40px;
 }
 
-.gif-home {
-    display: flex;
-	justify-content: center;
-    flex-direction: line;
-    padding-top: 80px;
+.texto {
+    background-color: white;
+    text-align: justify;
+    padding: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 18px;
+    line-height: 1.5; 
+}
+
+.texto h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nome {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: -10px;
+    margin-bottom: -10px;
 }
