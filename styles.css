@@ -80,6 +80,8 @@ body {
     margin-bottom: -10px;
 }
 
-@media only screen and (max-device-width: 900px) {
-    .corpo { width:100%; } 
+@media only screen and (max-width: 600px) {
+  texto {
+      margin: 100%;
+  }
 }
