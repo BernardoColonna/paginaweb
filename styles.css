@@ -99,4 +99,9 @@ body {
         width: 100%;
         background-image: url(img/fundo-mobile.jpg);
     }
+    
+    .texto {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
